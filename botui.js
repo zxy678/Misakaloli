@@ -93,7 +93,7 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "一次看某部番时跳出的这个名字，于是我就沿用了下来，嗯！"
+            content: "一次看某部番时想出了这个名字，于是我就沿用了下来，嗯！"
         })
     }).then(function() {
         return botui.action.button({
