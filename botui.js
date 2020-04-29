@@ -27,7 +27,7 @@ botui.message.bot({
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "这里是 御坂の地下室"
+        content: "这里是 Misaka 御坂"
     })
 }).then(function() {
     return botui.message.bot({
