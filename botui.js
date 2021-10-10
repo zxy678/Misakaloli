@@ -32,7 +32,7 @@ botui.message.bot({
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "一个可爱的蓝孩子~"
+        content: "一个喜欢网上冲浪的蓝孩子~"
     })
 }).then(function() {
     return botui.action.button({
@@ -65,7 +65,7 @@ var other = function() {
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "是个即将高三的高二狗"
+            content: "是个即将大一的大一狗"
         })
     }).then(function() {
         return botui.message.bot({
@@ -106,7 +106,7 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "emmmmm，Misaka的意思是御坂，loli不说也知道吧 _(:з」∠)_"
+            content: "emmmmm，Misaka的意思是御坂，moe不说也知道吧 _(:з」∠)_"
         })
     }).then(function(res) {
         return botui.message.bot({
