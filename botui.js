@@ -65,7 +65,7 @@ var other = function() {
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "是个即将大一的大一狗"
+            content: "是个即将大三的未知生物（"
         })
     }).then(function() {
         return botui.message.bot({
